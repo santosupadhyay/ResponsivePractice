@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #BDD7FF;
+}
+h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+a{
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 400;
+    color: black ;
+}
+li{
+    list-style-type: none;
+}
+span{
+    color: red;
+    font-family: cursive;
+}
+p{
+    font-size: .7rem;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    outline: 1px solid white;
+    height: 10vh;
+    padding: 0 3rem;
+}
+.lists ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    padding: 7vh 2rem;
+    gap: 2rem;
+}
+.photosection img{
+    height: 15.625rem;
+    width: 15.625rem;
+    border-radius: 50%;
+}
+.myintro{
+    width: 100%;
+    padding: 0 2rem;
+}
+.myintro p{
+    text-align:justify;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    h3{
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: -1px;
+    }
+    a{
+        text-decoration: none;
+        font-size: .7rem;
+        font-weight: 400;
+        color: black ;
+    }
+    li{
+        list-style-type: none;
+    }
+    span{
+        color: red;
+        font-family: cursive;
+    }
+    p{
+        font-size: .6rem;
+        font-weight: 400;
+        letter-spacing: 0px;
+    }
+    .navBar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 8vh;
+        padding: 0 1.2rem;
+    }
+    .lists ul {
+        display: flex;
+        align-items: center;
+        gap: .8rem;
+    }
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+        padding: 5vh 1.2rem;
+        gap: .8rem;
+    }
+    .photosection img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .myintro{
+        width: 100%;
+        padding: 0 1rem;
+    }
+    .myintro p{
+        text-align:justify;
+    }
+    
+}

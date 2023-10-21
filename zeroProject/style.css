@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 16px;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+}
+
+/* Topography */
+h2 {
+   font-size: 1.3rem;
+   font-weight: 700;
+   letter-spacing: -1px;
+}
+
+h5 {
+   font-size: .6rem;
+   font-weight: 400;
+   letter-spacing: -1px;
+}
+a{
+   text-decoration: none;
+   cursor: pointer;
+   color: #3f3f3f;
+   font-size: .7rem;
+}
+li{
+   list-style: none;
+}
+p{
+   font-size: .7rem;
+   text-align: justify;
+   font-weight: 300;
+}
+
+
+
+
+/*Styling the design*/
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   min-height: 6rem ;
+   margin: 0 auto;
+   background-color: rgb(211, 211, 211);
+}
+.rightside ul{
+   display: flex;
+   align-items: center; 
+   gap: 2em;
+   letter-spacing: -1px; 
+}
+
+
+/*Container styling*/
+.container{
+   min-width: 54%;
+   outline: 2px solid yellow;
+   margin: 5vh auto;
+
+   display: flex;
+   gap: 2rem;
+   max-width: 70%;
+}
+
+.leftmainside{
+   width: 75%;
+   display: flex;
+   flex-direction: column;
+}
+.rightmainside{
+   width: 25%;
+}
+
+.photo{
+   height: 100px;
+   width: 100%;
+}
+#about-me{
+   background-color: rgb(211, 211, 211);
+   padding: .4rem;
+   margin-bottom: 1rem;
+}
+.abtme{
+   background: white;
+   padding: .4rem;
+   text-align: center;
+}
+#recent-posts{
+   background: rgb(211, 211, 211);
+   padding: .4rem;
+   
+}
+.recentpost{
+   background: white;
+   padding: .4rem;
+}
+.lg-main-photo{
+   width: 100%;
+}
+.cntrd{
+   margin-top: .4rem;
+   letter-spacing: 1px;
+}
+.borderbtm{
+   margin-top: 1.6rem;
+   border-bottom: 2px solid black;
+   margin-bottom: 3rem;
+}
+.eql{
+   display: flex;
+   justify-content: space-between;
+   gap: 1.8rem;
+   min-height: 40vh;
+   /* margin-bottom: 2rem; */
+}
+.rightimg{
+   height: 150px;
+   width: 150px;
+}
+.lg-main{
+   min-height: 80vh;
+}
+.footerpart{
+   height: 20vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: blue;
+   color: white;
+}
+.footerpart h3{
+   font-size: .7rem;
+   font-weight: 500;
+}
+.footerpart h6{
+   font-size: .5rem;
+   font-weight: 400;
+}
+
+
+@media (max-width:600px){
+   .navbar{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .subtitle{
+      text-align: center;
+   }
+   .container{
+      width: 90%;
+      outline: 2px solid yellow;
+      margin: 5vh auto;
+   
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+   }
+   .eql{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.8rem;
+      min-height: 40vh;
+   }
+   .leftmainside{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .rightimg{
+      height: 100%;
+      width: 100%;
+   }
+   .recentpost{
+      display: flex;
+      width: 100%;
+      gap: .4rem;
+   }
+   .rightmainside{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+   #about-me{
+      width: 100%;
+   }
+   .abtme img{
+      width: 60%;
+   }
+   #about-me p{
+      font-size: .6rem;
+   }
+   #recent-posts{
+      width: 100%;
+   }
+   #recent-posts p{
+      font-size: .8rem;
+   }
+}
+
